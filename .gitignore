@@ -1,0 +1,29 @@
+    # MATLAB/Simulink specific
+    *.asv
+    *.p
+    *.mex*
+    *.slx.part
+    *.sfx.part
+    *.slxc
+    *.slxc.part
+    *.m~
+    *.bak
+
+    # MATLAB generated files
+    MATLAB_crash_dump.*
+    matlab_crash_dump.*
+    hs_err_pid*.log
+
+    # Ignore .mat files by default. If your project needs specific .mat
+    # data files, you can explicitly add them using "git add -f".
+    *.mat
+
+    # MATLAB package files
+    *.mlappinstall
+    *.mlpkginstall
+    *.mltbx
+
+    # MATLAB Coder/Compiler artifacts
+    /codegen/
+    /slprj/
+    _clang-format
